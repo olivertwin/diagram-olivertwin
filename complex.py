@@ -4,14 +4,14 @@ from urllib.parse import urlencode
 NETBOX_URL: str = "https://demo.netbox.dev"
 
 
-EXAMPLE_INPUT: dict[str,list[str]] = {
+EXAMPLE_INPUT: dict[str, list[str]] = {
     "manufacturer": ["cisco"],
     "role": ["router", "core-switch", "access-switch"],
     "status": ["active", "offline"],
     "site": ["dm-akronsk", "dm-albany", "dm-camden"],
 }
 
-EXAMPLE_RESULT: list[tuple[str, int] | tuple[str, str]]= [
+EXAMPLE_RESULT: list[tuple[str, int] | tuple[str, str]] = [
     ("manufacturer_id", 3),
     ("role_id", 1),
     ("role_id", 2),
