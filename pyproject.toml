@@ -1,0 +1,85 @@
+[project]
+name = "diagram-from-lldp"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "bukharaev_r",email = "bukharaev_r@ga.loc"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "diagram_from_lldp", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+ruff = "^0.11.13"
+flake8 = "^7.2.0"
+flake8-pyproject = "^1.2.3"
+mypy = "^1.16.1"
+
+[tool.ruff]
+# https://docs.astral.sh/ruff/settings
+extend-exclude = ["__init__.py"]
+line-length = 120
+lint.pydocstyle.convention = "google"
+lint.select = [
+    "N",    # pep8-naming
+    "B",    # flake8-bugbear
+    "A",    # flake8-builtins
+    "E",    # pycodestyle.error
+    "W",    # pycodestyle.warning
+    "F",    # pyflakes
+    "S",    # flake8-bandit
+    "D",    # pydocstyle
+    "I",    # isort
+    "C90",  # maccabe
+    "C4",   # flake8-comprehensions
+    "COM",  # flake8-commas
+    "DTZ",  # flake8-datetimez
+    "ERA",  # flake8-eradicate
+    "SLOT", # flake8-slots
+]
+lint.ignore = [
+    "D100",   # Missing docstring in public module
+    "D101",   # Missing docstring in public class
+    "D102",   # Missing docstring in public method
+    "D103",   # Missing docstring in public function
+    "D105",   # Missing docstring in magic method
+    "D106",   # Missing docstring in public nested class
+    "D107",   # Missing docstring in `__init__`
+    "S101",   # Use of `assert` detected
+    "S311",   # Standard pseudo-random generators are not suitable for cryptographic purposes
+    "ERA001", # Remove commented-out code
+]
+
+[tool.flake8]
+# https://wemake-python-styleguide.readthedocs.io/en/latest/pages/usage/violations/index.html
+exclude = ["venv", ".venv", ".git", "__pycache__"]
+select = "WPS"
+ignore = [
+    "WPS421", # Found wrong function call: {}
+    "WPS102", # Found incorrect module name pattern
+    "WPS1",   # или всю группу WPS1xx целиком
+]
+per-file-ignores = [
+    "03.output_collect.py:WPS221,WPS407", # отключаем на уровне файла
+]
+max-jones-score = 10 # WPS200
+max-line-complexity = 10 # WPS221
+max-cognitive-score = 10 # WPS231
+allowed-domain-names = [ # некоторые проверки позволяют себя настраивать
+    "value",
+    "data",
+    "item",
+]
+
+[tool.black]
+line-length = 120
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

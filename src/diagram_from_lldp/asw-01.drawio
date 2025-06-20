@@ -1,0 +1,169 @@
+<mxfile type="device" compressed="false">
+    <diagram id="asw-01" name="asw-01">
+      <mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+        <root>
+          <mxCell id="0" />   
+          <mxCell id="1" parent="0" />
+        <object id="asw-01" label="asw-01">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="226" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="alt-dst-usg-01" label="alt-dst-usg-01">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="674" y="40" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><mxCell id="368e59661ecf3fc7016f9cfe4eb24518-src" value="GigabitEthernet0/0/1" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="368e59661ecf3fc7016f9cfe4eb24518">
+      <mxGeometry x="-0.5" relative="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><mxCell id="368e59661ecf3fc7016f9cfe4eb24518-trgt" value="GigabitEthernet0/0/1" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="368e59661ecf3fc7016f9cfe4eb24518">
+      <mxGeometry x="0.5" relative="-1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><object id="368e59661ecf3fc7016f9cfe4eb24518" label="" src_label="GigabitEthernet0/0/1" trgt_label="GigabitEthernet0/0/1" source="asw-01" target="alt-dst-usg-01">
+      <mxCell style="endArrow=none;entryX=0.75;entryDx=0;entryY=1;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="asw-01" target="alt-dst-usg-01">
+          <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </object><object id="alt-dst-usg-02" label="alt-dst-usg-02">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="813" y="151" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><mxCell id="69595fc150a871ce9007c31c3df96311-src" value="GigabitEthernet0/0/2" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="69595fc150a871ce9007c31c3df96311">
+      <mxGeometry x="-0.5" relative="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><mxCell id="69595fc150a871ce9007c31c3df96311-trgt" value="GigabitEthernet0/0/1" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="69595fc150a871ce9007c31c3df96311">
+      <mxGeometry x="0.5" relative="-1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><object id="69595fc150a871ce9007c31c3df96311" label="" src_label="GigabitEthernet0/0/2" trgt_label="GigabitEthernet0/0/1" source="asw-01" target="alt-dst-usg-02">
+      <mxCell style="endArrow=none;entryX=0.75;entryDx=0;entryY=1;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="asw-01" target="alt-dst-usg-02">
+          <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </object><mxCell id="9f1f376b0d0f6ee53cbb9fe350dfae3b-src" value="GigabitEthernet0/0/6" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="9f1f376b0d0f6ee53cbb9fe350dfae3b">
+      <mxGeometry x="-0.5" relative="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><mxCell id="9f1f376b0d0f6ee53cbb9fe350dfae3b-trgt" value="MEth0/0/0" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="9f1f376b0d0f6ee53cbb9fe350dfae3b">
+      <mxGeometry x="0.5" relative="-1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><object id="9f1f376b0d0f6ee53cbb9fe350dfae3b" label="" src_label="GigabitEthernet0/0/6" trgt_label="MEth0/0/0" source="asw-01" target="alt-dst-usg-01">
+      <mxCell style="endArrow=none;entryX=0;entryDx=0;entryY=0.5;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="asw-01" target="alt-dst-usg-01">
+          <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </object><mxCell id="5ae78148f63d088f01c34ffacc50c79f-src" value="GigabitEthernet0/0/46" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="5ae78148f63d088f01c34ffacc50c79f">
+      <mxGeometry x="-0.5" relative="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><mxCell id="5ae78148f63d088f01c34ffacc50c79f-trgt" value="WAN0/0/0" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="5ae78148f63d088f01c34ffacc50c79f">
+      <mxGeometry x="0.5" relative="-1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><object id="5ae78148f63d088f01c34ffacc50c79f" label="" src_label="GigabitEthernet0/0/46" trgt_label="WAN0/0/0" source="asw-01" target="alt-dst-usg-01">
+      <mxCell style="endArrow=none;entryX=0.5;entryDx=0;entryY=1;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="asw-01" target="alt-dst-usg-01">
+          <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </object><mxCell id="d7ca5b246d20a8d8471d9195d4ce8bb0-src" value="GigabitEthernet0/0/47" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="d7ca5b246d20a8d8471d9195d4ce8bb0">
+      <mxGeometry x="-0.5" relative="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><mxCell id="d7ca5b246d20a8d8471d9195d4ce8bb0-trgt" value="WAN0/0/0" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="d7ca5b246d20a8d8471d9195d4ce8bb0">
+      <mxGeometry x="0.5" relative="-1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><object id="d7ca5b246d20a8d8471d9195d4ce8bb0" label="" src_label="GigabitEthernet0/0/47" trgt_label="WAN0/0/0" source="asw-01" target="alt-dst-usg-02">
+      <mxCell style="endArrow=none;entryX=0.5;entryDx=0;entryY=1;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="asw-01" target="alt-dst-usg-02">
+          <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </object><object id="alt-dst-asw-02" label="alt-dst-asw-02">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="311" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><mxCell id="b9945bd7f1e3defb318a1357e71ce5c7-src" value="XGigabitEthernet0/0/3" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="b9945bd7f1e3defb318a1357e71ce5c7">
+      <mxGeometry x="-0.5" relative="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><mxCell id="b9945bd7f1e3defb318a1357e71ce5c7-trgt" value="XGigabitEthernet0/0/3" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="b9945bd7f1e3defb318a1357e71ce5c7">
+      <mxGeometry x="0.5" relative="-1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><object id="b9945bd7f1e3defb318a1357e71ce5c7" label="" src_label="XGigabitEthernet0/0/3" trgt_label="XGigabitEthernet0/0/3" source="asw-01" target="alt-dst-asw-02">
+      <mxCell style="endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="asw-01" target="alt-dst-asw-02">
+          <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </object><mxCell id="cec0c2e4050da2df459dcb01d8e88cd9-src" value="GigabitEthernet1/0/1" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="cec0c2e4050da2df459dcb01d8e88cd9">
+      <mxGeometry x="-0.5" relative="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><mxCell id="cec0c2e4050da2df459dcb01d8e88cd9-trgt" value="GigabitEthernet0/0/2" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="cec0c2e4050da2df459dcb01d8e88cd9">
+      <mxGeometry x="0.5" relative="-1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><object id="cec0c2e4050da2df459dcb01d8e88cd9" label="" src_label="GigabitEthernet1/0/1" trgt_label="GigabitEthernet0/0/2" source="asw-01" target="alt-dst-usg-01">
+      <mxCell style="endArrow=none;entryX=0.5;entryDx=0;entryY=1;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="asw-01" target="alt-dst-usg-01">
+          <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </object><mxCell id="2af10c95e9f0ff1d1ffb137bf9bd1371-src" value="GigabitEthernet1/0/2" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="2af10c95e9f0ff1d1ffb137bf9bd1371">
+      <mxGeometry x="-0.5" relative="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><mxCell id="2af10c95e9f0ff1d1ffb137bf9bd1371-trgt" value="GigabitEthernet0/0/2" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="2af10c95e9f0ff1d1ffb137bf9bd1371">
+      <mxGeometry x="0.5" relative="-1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><object id="2af10c95e9f0ff1d1ffb137bf9bd1371" label="" src_label="GigabitEthernet1/0/2" trgt_label="GigabitEthernet0/0/2" source="asw-01" target="alt-dst-usg-02">
+      <mxCell style="endArrow=none;entryX=0.5;entryDx=0;entryY=1;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="asw-01" target="alt-dst-usg-02">
+          <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </object><mxCell id="41d59c66f7c34a57bb7a9d0d6e3e576d-src" value="GigabitEthernet1/0/6" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="41d59c66f7c34a57bb7a9d0d6e3e576d">
+      <mxGeometry x="-0.5" relative="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><mxCell id="41d59c66f7c34a57bb7a9d0d6e3e576d-trgt" value="MEth0/0/0" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="41d59c66f7c34a57bb7a9d0d6e3e576d">
+      <mxGeometry x="0.5" relative="-1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><object id="41d59c66f7c34a57bb7a9d0d6e3e576d" label="" src_label="GigabitEthernet1/0/6" trgt_label="MEth0/0/0" source="asw-01" target="alt-dst-usg-02">
+      <mxCell style="endArrow=none;entryX=1;entryDx=0;entryY=0.5;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="asw-01" target="alt-dst-usg-02">
+          <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </object><mxCell id="aa342b69192252f626a91f876acd065f-src" value="GigabitEthernet1/0/46" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="aa342b69192252f626a91f876acd065f">
+      <mxGeometry x="-0.5" relative="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><mxCell id="aa342b69192252f626a91f876acd065f-trgt" value="WAN0/0/1" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="aa342b69192252f626a91f876acd065f">
+      <mxGeometry x="0.5" relative="-1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><object id="aa342b69192252f626a91f876acd065f" label="" src_label="GigabitEthernet1/0/46" trgt_label="WAN0/0/1" source="asw-01" target="alt-dst-usg-01">
+      <mxCell style="endArrow=none;entryX=0.75;entryDx=0;entryY=1;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="asw-01" target="alt-dst-usg-01">
+          <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </object><mxCell id="11783bfef53a65a4971bef788aaefa91-src" value="GigabitEthernet1/0/47" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="11783bfef53a65a4971bef788aaefa91">
+      <mxGeometry x="-0.5" relative="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><mxCell id="11783bfef53a65a4971bef788aaefa91-trgt" value="WAN0/0/1" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="11783bfef53a65a4971bef788aaefa91">
+      <mxGeometry x="0.5" relative="-1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><object id="11783bfef53a65a4971bef788aaefa91" label="" src_label="GigabitEthernet1/0/47" trgt_label="WAN0/0/1" source="asw-01" target="alt-dst-usg-02">
+      <mxCell style="endArrow=none;entryX=0.75;entryDx=0;entryY=1;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="asw-01" target="alt-dst-usg-02">
+          <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </object><mxCell id="27dac55501be167cae31c8bcb0a64531-src" value="XGigabitEthernet1/0/3" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="27dac55501be167cae31c8bcb0a64531">
+      <mxGeometry x="-0.5" relative="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><mxCell id="27dac55501be167cae31c8bcb0a64531-trgt" value="XGigabitEthernet1/0/3" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="27dac55501be167cae31c8bcb0a64531">
+      <mxGeometry x="0.5" relative="-1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><object id="27dac55501be167cae31c8bcb0a64531" label="" src_label="XGigabitEthernet1/0/3" trgt_label="XGigabitEthernet1/0/3" source="asw-01" target="alt-dst-asw-02">
+      <mxCell style="endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="asw-01" target="alt-dst-asw-02">
+          <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </object></root>
+      </mxGraphModel>
+    </diagram></mxfile>

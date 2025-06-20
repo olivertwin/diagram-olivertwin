@@ -1,0 +1,961 @@
+GigabitEthernet0/0/1 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :c0bc-9a9f-6687
+Port ID type   :Interface name
+Port ID        :GigabitEthernet0/0/1
+System name         :alt-dst-usg-01
+System description  :alt-dst-usg-01, Huawei Versatile Routing Platform Software, Software Version : USG6500E V600R007C20SPC600 (VRP (R) Software, Version 5.170), Copyright (C) 2014-2022 Huawei Technologies Co., Ltd.
+System capabilities supported   :router
+System capabilities enabled     :router
+Management address type  :ipv4
+Management address value :10.118.0.1
+OID  :
+Expired time   :95s
+
+
+GigabitEthernet0/0/2 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :6c44-2a85-aabc
+Port ID type   :Interface name
+Port ID        :GigabitEthernet0/0/1
+System name         :alt-dst-usg-02
+System description  :alt-dst-usg-02, Huawei Versatile Routing Platform Software, Software Version : USG6500E V600R007C20SPC600 (VRP (R) Software, Version 5.170), Copyright (C) 2014-2022 Huawei Technologies Co., Ltd.
+System capabilities supported   :router
+System capabilities enabled     :router
+Management address type  :ipv4
+Management address value :10.118.0.1
+OID  :
+Expired time   :104s
+
+
+GigabitEthernet0/0/3 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :8c2a-8e08-d32a
+Port ID type   :MAC address
+Port ID        :8c2a-8e08-d32a
+Expired time   :106s
+
+
+GigabitEthernet0/0/4 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :8c2a-8e08-d39a
+Port ID type   :MAC address
+Port ID        :8c2a-8e08-d39a
+Expired time   :120s
+
+
+GigabitEthernet0/0/6 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :c0bc-9a9f-6687
+Port ID type   :Interface name
+Port ID        :MEth0/0/0
+System name         :alt-dst-usg-01
+System description  :alt-dst-usg-01, Huawei Versatile Routing Platform Software, Software Version : USG6500E V600R007C20SPC600 (VRP (R) Software, Version 5.170), Copyright (C) 2014-2022 Huawei Technologies Co., Ltd.
+System capabilities supported   :router
+System capabilities enabled     :router
+Management address type  :ipv4
+Management address value :10.118.0.1
+OID  :
+Expired time   :95s
+
+
+GigabitEthernet0/0/7 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :8c04-ba9c-41f1
+Port ID type   :MAC address
+Port ID        :8c04-ba9c-41f1
+Expired time   :3174s
+
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+MED Device information
+Device class   :EndPoint Class I
+
+GigabitEthernet0/0/9 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :8c04-ba9c-8e54
+Port ID type   :MAC address
+Port ID        :8c04-ba9c-8e54
+Expired time   :3035s
+
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+MED Device information
+Device class   :EndPoint Class I
+
+GigabitEthernet0/0/13 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :8c04-ba9b-f3c6
+Port ID type   :MAC address
+Port ID        :8c04-ba9b-f3c6
+Expired time   :2831s
+
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+MED Device information
+Device class   :EndPoint Class I
+
+GigabitEthernet0/0/14 has 3 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :90ac-3f24-23fb
+Port ID type   :MAC address
+Port ID        :90ac-3f24-23fb
+Port description    :eth0
+System name         :BrightSign-THD1C8001728
+System description  :BrightSign HD224 REVD 8.2.73 THD1C8001728
+System capabilities supported   :stationOnly
+System capabilities enabled     :stationOnly
+Management address type  :ipv4
+Management address value :192.168.1.101
+OID  :
+Management address type  :ipv6
+Management address value :FE80::92AC:3FFF:FE24:23FB
+OID  :
+Expired time   :114s
+
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(1000)/duplex(Full)
+
+Link aggregation supported:Yes
+Link aggregation enabled :No
+Aggregation port ID      :0
+
+MED Device information
+Device class   :EndPoint Class II
+SoftwareRev       :4.9.135-1.14+bs8.2.73
+
+
+Neighbor index :2
+Chassis type   :MAC address
+Chassis ID     :90ac-3f24-2947
+Port ID type   :MAC address
+Port ID        :90ac-3f24-2947
+Port description    :eth0
+System name         :BrightSign-THD1CU001281
+System description  :BrightSign HD224 REVD 8.2.73 THD1CU001281
+System capabilities supported   :stationOnly
+System capabilities enabled     :stationOnly
+Management address type  :ipv4
+Management address value :192.168.1.103
+OID  :
+Management address type  :ipv6
+Management address value :FE80::92AC:3FFF:FE24:2947
+OID  :
+Expired time   :114s
+
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(1000)/duplex(Full)
+
+Link aggregation supported:Yes
+Link aggregation enabled :No
+Aggregation port ID      :0
+
+MED Device information
+Device class   :EndPoint Class II
+SoftwareRev       :4.9.135-1.14+bs8.2.73
+
+
+Neighbor index :3
+Chassis type   :MAC address
+Chassis ID     :90ac-3f24-28a7
+Port ID type   :MAC address
+Port ID        :90ac-3f24-28a7
+Port description    :eth0
+System name         :BrightSign-THD1C3001121
+System description  :BrightSign HD224 REVD 8.2.73 THD1C3001121
+System capabilities supported   :stationOnly
+System capabilities enabled     :stationOnly
+Management address type  :ipv4
+Management address value :192.168.1.102
+OID  :
+Management address type  :ipv6
+Management address value :FE80::92AC:3FFF:FE24:28A7
+OID  :
+Expired time   :114s
+
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(1000)/duplex(Full)
+
+Link aggregation supported:Yes
+Link aggregation enabled :No
+Aggregation port ID      :0
+
+MED Device information
+Device class   :EndPoint Class II
+SoftwareRev       :4.9.135-1.14+bs8.2.73
+
+GigabitEthernet0/0/43 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :0a92-101f-bc08
+Port ID type   :Interface name
+Port ID        :Br.HS/ether3
+System name         :f6ASQAsz7By5rArH
+System description  :MikroTik RouterOS 7.12.1 (stable) Nov/17/2023 11:38:45 RB4011iGS+
+System capabilities supported   :bridge router
+System capabilities enabled     :bridge router
+Management address type  :ipv4
+Management address value :192.168.200.1
+OID  :
+Expired time   :113s
+
+
+GigabitEthernet0/0/46 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :c0bc-9a9f-6687
+Port ID type   :Interface name
+Port ID        :WAN0/0/0
+System name         :alt-dst-usg-01
+System description  :alt-dst-usg-01, Huawei Versatile Routing Platform Software, Software Version : USG6500E V600R007C20SPC600 (VRP (R) Software, Version 5.170), Copyright (C) 2014-2022 Huawei Technologies Co., Ltd.
+System capabilities supported   :router
+System capabilities enabled     :router
+Management address type  :ipv4
+Management address value :10.118.0.1
+OID  :
+Expired time   :95s
+
+
+GigabitEthernet0/0/47 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :6c44-2a85-aabc
+Port ID type   :Interface name
+Port ID        :WAN0/0/0
+System name         :alt-dst-usg-02
+System description  :alt-dst-usg-02, Huawei Versatile Routing Platform Software, Software Version : USG6500E V600R007C20SPC600 (VRP (R) Software, Version 5.170), Copyright (C) 2014-2022 Huawei Technologies Co., Ltd.
+System capabilities supported   :router
+System capabilities enabled     :router
+Management address type  :ipv4
+Management address value :10.118.0.1
+OID  :
+Expired time   :104s
+
+
+XGigabitEthernet0/0/3 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :fc73-fb33-6960
+Port ID type   :Interface name
+Port ID        :XGigabitEthernet0/0/3
+Port description    :XGigabitEthernet0/0/3
+System name         :alt-dst-asw-02
+System description  :Huawei Switch S5735-L48T4X-A1
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.170 (S5735 V200R020C10SPC500)
+Copyright (C) 2000-2020 HUAWEI TECH Co., Ltd.
+System capabilities supported   :bridge router
+System capabilities enabled     :bridge router
+Management address type  :ipv4
+Management address value :10.118.254.2
+OID  :0.6.15.43.6.1.4.1.2011.5.25.41.1.2.1.1.1.
+Expired time   :114s
+
+Port VLAN ID(PVID)  :1
+VLAN name of VLAN  1:VLAN 0001
+
+Auto-negotiation supported    :No
+Auto-negotiation enabled      :No
+OperMau   :speed(10000)/duplex(Full)
+
+Power port class            :PD
+PSE power supported         :No
+PSE power enabled           :No
+PSE pairs control ability   :No
+Power pairs                 :Unknown
+Port power classification   :Unknown
+
+Link aggregation supported:Yes
+Link aggregation enabled :Yes
+Aggregation port ID      :0
+
+Maximum frame Size       :10240
+
+GigabitEthernet1/0/1 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :c0bc-9a9f-6687
+Port ID type   :Interface name
+Port ID        :GigabitEthernet0/0/2
+System name         :alt-dst-usg-01
+System description  :alt-dst-usg-01, Huawei Versatile Routing Platform Software, Software Version : USG6500E V600R007C20SPC600 (VRP (R) Software, Version 5.170), Copyright (C) 2014-2022 Huawei Technologies Co., Ltd.
+System capabilities supported   :router
+System capabilities enabled     :router
+Management address type  :ipv4
+Management address value :10.118.0.1
+OID  :
+Expired time   :95s
+
+
+GigabitEthernet1/0/2 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :6c44-2a85-aabc
+Port ID type   :Interface name
+Port ID        :GigabitEthernet0/0/2
+System name         :alt-dst-usg-02
+System description  :alt-dst-usg-02, Huawei Versatile Routing Platform Software, Software Version : USG6500E V600R007C20SPC600 (VRP (R) Software, Version 5.170), Copyright (C) 2014-2022 Huawei Technologies Co., Ltd.
+System capabilities supported   :router
+System capabilities enabled     :router
+Management address type  :ipv4
+Management address value :10.118.0.1
+OID  :
+Expired time   :103s
+
+
+GigabitEthernet1/0/3 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :8c2a-8e08-d32b
+Port ID type   :MAC address
+Port ID        :8c2a-8e08-d32b
+Expired time   :115s
+
+
+GigabitEthernet1/0/4 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :8c2a-8e08-d39b
+Port ID type   :MAC address
+Port ID        :8c2a-8e08-d39b
+Expired time   :108s
+
+
+GigabitEthernet1/0/6 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :6c44-2a85-aabc
+Port ID type   :Interface name
+Port ID        :MEth0/0/0
+System name         :alt-dst-usg-02
+System description  :alt-dst-usg-02, Huawei Versatile Routing Platform Software, Software Version : USG6500E V600R007C20SPC600 (VRP (R) Software, Version 5.170), Copyright (C) 2014-2022 Huawei Technologies Co., Ltd.
+System capabilities supported   :router
+System capabilities enabled     :router
+Management address type  :ipv4
+Management address value :10.118.0.1
+OID  :
+Expired time   :103s
+
+
+GigabitEthernet1/0/7 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :50eb-f64f-b992
+Port ID type   :MAC address
+Port ID        :50eb-f64f-b992
+Expired time   :3327s
+
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+MED Device information
+Device class   :EndPoint Class I
+
+GigabitEthernet1/0/8 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :bcec-a03a-3fb4
+Port ID type   :MAC address
+Port ID        :bcec-a03a-3fb4
+Expired time   :3198s
+
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+MED Device information
+Device class   :EndPoint Class I
+
+GigabitEthernet1/0/10 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :8c04-ba9b-eccb
+Port ID type   :MAC address
+Port ID        :8c04-ba9b-eccb
+Expired time   :2788s
+
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+MED Device information
+Device class   :EndPoint Class I
+
+GigabitEthernet1/0/11 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :18c0-4dc7-91c9
+Port ID type   :MAC address
+Port ID        :18c0-4dc7-91c9
+Expired time   :3311s
+
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+MED Device information
+Device class   :EndPoint Class I
+
+GigabitEthernet1/0/12 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :18c0-4dc7-946f
+Port ID type   :MAC address
+Port ID        :18c0-4dc7-946f
+Expired time   :3027s
+
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+MED Device information
+Device class   :EndPoint Class I
+
+GigabitEthernet1/0/35 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :8c04-ba9b-faaf
+Port ID type   :MAC address
+Port ID        :8c04-ba9b-faaf
+Expired time   :2987s
+
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+MED Device information
+Device class   :EndPoint Class I
+
+GigabitEthernet1/0/46 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :c0bc-9a9f-6687
+Port ID type   :Interface name
+Port ID        :WAN0/0/1
+System name         :alt-dst-usg-01
+System description  :alt-dst-usg-01, Huawei Versatile Routing Platform Software, Software Version : USG6500E V600R007C20SPC600 (VRP (R) Software, Version 5.170), Copyright (C) 2014-2022 Huawei Technologies Co., Ltd.
+System capabilities supported   :router
+System capabilities enabled     :router
+Management address type  :ipv4
+Management address value :10.118.0.1
+OID  :
+Expired time   :94s
+
+
+GigabitEthernet1/0/47 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :6c44-2a85-aabc
+Port ID type   :Interface name
+Port ID        :WAN0/0/1
+System name         :alt-dst-usg-02
+System description  :alt-dst-usg-02, Huawei Versatile Routing Platform Software, Software Version : USG6500E V600R007C20SPC600 (VRP (R) Software, Version 5.170), Copyright (C) 2014-2022 Huawei Technologies Co., Ltd.
+System capabilities supported   :router
+System capabilities enabled     :router
+Management address type  :ipv4
+Management address value :10.118.0.1
+OID  :
+Expired time   :103s
+
+
+XGigabitEthernet1/0/3 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :fc73-fb33-6960
+Port ID type   :Interface name
+Port ID        :XGigabitEthernet1/0/3
+Port description    :XGigabitEthernet1/0/3
+System name         :alt-dst-asw-02
+System description  :Huawei Switch S5735-L48T4X-A1
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.170 (S5735 V200R020C10SPC500)
+Copyright (C) 2000-2020 HUAWEI TECH Co., Ltd.
+System capabilities supported   :bridge router
+System capabilities enabled     :bridge router
+Management address type  :ipv4
+Management address value :10.118.254.2
+OID  :0.6.15.43.6.1.4.1.2011.5.25.41.1.2.1.1.1.
+Expired time   :108s
+
+Port VLAN ID(PVID)  :1
+VLAN name of VLAN  1:VLAN 0001
+
+Auto-negotiation supported    :No
+Auto-negotiation enabled      :No
+OperMau   :speed(10000)/duplex(Full)
+
+Power port class            :PD
+PSE power supported         :No
+PSE power enabled           :No
+PSE pairs control ability   :No
+Power pairs                 :Unknown
+Port power classification   :Unknown
+
+Link aggregation supported:Yes
+Link aggregation enabled :Yes
+Aggregation port ID      :0
+
+Maximum frame Size       :10240
+
+GigabitEthernet2/0/1 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :209e-f778-7882
+Port ID type   :Interface alias
+Port ID        :ge1
+Port description    :ge1
+System name         :ap310-787882
+System description  :AP310i-WR, Version 7.9.2.0-010R
+System capabilities supported   :bridge wlanAccessPoint router
+System capabilities enabled     :bridge wlanAccessPoint router
+Management address type  :ipv4
+Management address value :10.118.7.12
+OID  :
+Expired time   :166s
+
+Port VLAN ID(PVID)  :1
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+Power port class            :PD
+PSE power supported         :No
+PSE power enabled           :No
+PSE pairs control ability   :No
+Power pairs                 :Unknown
+Port power classification   :Class4
+Power type                  :Type 2 PD
+Power source                :PSE
+Power priority              :Critical
+PD requested power value    :25.5(w)
+PSE allocated power value   :12.9(w)
+
+MED Device information
+Device class   :Network Connectivity
+
+HardwareRev       :0
+FirmwareRev       :7.9.2.0-010R
+SoftwareRev       :7.9.2.0-010R
+SerialNum         :2046Y-14313
+Manufacturer name :Extreme Networks, Inc.
+Model name        :AP310
+Asset tracking identifier:2046Y-14313
+
+Power Type               :PD
+PoE PSE power source     :PSE
+Port PSE Priority        :Critical
+Port Available power value:25.5(w)
+
+GigabitEthernet2/0/2 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :209e-f778-7878
+Port ID type   :Interface alias
+Port ID        :ge1
+Port description    :ge1
+System name         :ap310-787878
+System description  :AP310i-WR, Version 7.9.2.0-010R
+System capabilities supported   :bridge wlanAccessPoint router
+System capabilities enabled     :bridge wlanAccessPoint router
+Management address type  :ipv4
+Management address value :10.118.7.10
+OID  :
+Expired time   :158s
+
+Port VLAN ID(PVID)  :1
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+Power port class            :PD
+PSE power supported         :No
+PSE power enabled           :No
+PSE pairs control ability   :No
+Power pairs                 :Unknown
+Port power classification   :Class4
+Power type                  :Type 2 PD
+Power source                :PSE
+Power priority              :Critical
+PD requested power value    :25.5(w)
+PSE allocated power value   :12.9(w)
+
+MED Device information
+Device class   :Network Connectivity
+
+HardwareRev       :0
+FirmwareRev       :7.9.2.0-010R
+SoftwareRev       :7.9.2.0-010R
+SerialNum         :2046Y-14311
+Manufacturer name :Extreme Networks, Inc.
+Model name        :AP310
+Asset tracking identifier:2046Y-14311
+
+Power Type               :PD
+PoE PSE power source     :PSE
+Port PSE Priority        :Critical
+Port Available power value:25.5(w)
+
+GigabitEthernet2/0/3 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :209e-f778-73b4
+Port ID type   :Interface alias
+Port ID        :ge1
+Port description    :ge1
+System name         :ap310-7873B4
+System description  :AP310i-WR, Version 7.9.2.0-010R
+System capabilities supported   :bridge wlanAccessPoint router
+System capabilities enabled     :bridge wlanAccessPoint router
+Management address type  :ipv4
+Management address value :10.118.7.16
+OID  :
+Expired time   :178s
+
+Port VLAN ID(PVID)  :1
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+Power port class            :PD
+PSE power supported         :No
+PSE power enabled           :No
+PSE pairs control ability   :No
+Power pairs                 :Unknown
+Port power classification   :Class4
+Power type                  :Type 2 PD
+Power source                :PSE
+Power priority              :Critical
+PD requested power value    :25.5(w)
+PSE allocated power value   :12.9(w)
+
+MED Device information
+Device class   :Network Connectivity
+
+HardwareRev       :0
+FirmwareRev       :7.9.2.0-010R
+SoftwareRev       :7.9.2.0-010R
+SerialNum         :2046Y-14067
+Manufacturer name :Extreme Networks, Inc.
+Model name        :AP310
+Asset tracking identifier:2046Y-14067
+
+Power Type               :PD
+PoE PSE power source     :PSE
+Port PSE Priority        :Critical
+Port Available power value:25.5(w)
+
+GigabitEthernet2/0/4 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :209e-f778-7869
+Port ID type   :Interface alias
+Port ID        :ge1
+Port description    :ge1
+System name         :ap310-787869
+System description  :AP310i-WR, Version 7.9.2.0-010R
+System capabilities supported   :bridge wlanAccessPoint router
+System capabilities enabled     :bridge wlanAccessPoint router
+Management address type  :ipv4
+Management address value :10.118.7.13
+OID  :
+Expired time   :158s
+
+Port VLAN ID(PVID)  :1
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+Power port class            :PD
+PSE power supported         :No
+PSE power enabled           :No
+PSE pairs control ability   :No
+Power pairs                 :Unknown
+Port power classification   :Class4
+Power type                  :Type 2 PD
+Power source                :PSE
+Power priority              :Critical
+PD requested power value    :25.5(w)
+PSE allocated power value   :12.9(w)
+
+MED Device information
+Device class   :Network Connectivity
+
+HardwareRev       :0
+FirmwareRev       :7.9.2.0-010R
+SoftwareRev       :7.9.2.0-010R
+SerialNum         :2046Y-14308
+Manufacturer name :Extreme Networks, Inc.
+Model name        :AP310
+Asset tracking identifier:2046Y-14308
+
+Power Type               :PD
+PoE PSE power source     :PSE
+Port PSE Priority        :Critical
+Port Available power value:25.5(w)
+
+GigabitEthernet2/0/5 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :209e-f778-7887
+Port ID type   :Interface alias
+Port ID        :ge1
+Port description    :ge1
+System name         :ap310-787887
+System description  :AP310i-WR, Version 7.9.2.0-010R
+System capabilities supported   :bridge wlanAccessPoint router
+System capabilities enabled     :bridge wlanAccessPoint router
+Management address type  :ipv4
+Management address value :10.118.7.14
+OID  :
+Expired time   :161s
+
+Port VLAN ID(PVID)  :1
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+Power port class            :PD
+PSE power supported         :No
+PSE power enabled           :No
+PSE pairs control ability   :No
+Power pairs                 :Unknown
+Port power classification   :Class4
+Power type                  :Type 2 PD
+Power source                :PSE
+Power priority              :Critical
+PD requested power value    :25.5(w)
+PSE allocated power value   :12.9(w)
+
+MED Device information
+Device class   :Network Connectivity
+
+HardwareRev       :0
+FirmwareRev       :7.9.2.0-010R
+SoftwareRev       :7.9.2.0-010R
+SerialNum         :2046Y-14314
+Manufacturer name :Extreme Networks, Inc.
+Model name        :AP310
+Asset tracking identifier:2046Y-14314
+
+Power Type               :PD
+PoE PSE power source     :PSE
+Port PSE Priority        :Critical
+Port Available power value:25.5(w)
+
+GigabitEthernet2/0/6 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :209e-f778-73c3
+Port ID type   :Interface alias
+Port ID        :ge1
+Port description    :ge1
+System name         :ap310-7873C3
+System description  :AP310i-WR, Version 7.9.2.0-010R
+System capabilities supported   :bridge wlanAccessPoint router
+System capabilities enabled     :bridge wlanAccessPoint router
+Management address type  :ipv4
+Management address value :10.118.7.11
+OID  :
+Expired time   :157s
+
+Port VLAN ID(PVID)  :1
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+Power port class            :PD
+PSE power supported         :No
+PSE power enabled           :No
+PSE pairs control ability   :No
+Power pairs                 :Unknown
+Port power classification   :Class4
+Power type                  :Type 2 PD
+Power source                :PSE
+Power priority              :Critical
+PD requested power value    :25.5(w)
+PSE allocated power value   :12.9(w)
+
+MED Device information
+Device class   :Network Connectivity
+
+HardwareRev       :0
+FirmwareRev       :7.9.2.0-010R
+SoftwareRev       :7.9.2.0-010R
+SerialNum         :2046Y-14070
+Manufacturer name :Extreme Networks, Inc.
+Model name        :AP310
+Asset tracking identifier:2046Y-14070
+
+Power Type               :PD
+PoE PSE power source     :PSE
+Port PSE Priority        :Critical
+Port Available power value:25.5(w)
+
+GigabitEthernet2/0/11 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :Network address
+Chassis ID     :10.118.3.12
+Port ID type   :MAC address
+Port ID        :805e-0c52-b93f
+Port description    :WAN PORT
+System name         :SIP-W60B
+System description  :77.83.14.1
+System capabilities supported   :bridge telephone
+System capabilities enabled     :bridge telephone
+Expired time   :127s
+
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(10)/duplex(Half)
+
+MED Device information
+Device class   :EndPoint Class III
+
+HardwareRev       :77.0.0.48.0.0.0
+FirmwareRev       :77.83.14.1
+SoftwareRev       :77.83.14.1
+SerialNum         :805e0c52b93f
+Manufacturer name :IP_Phone
+Model name        :W600
+
+Media policy type   :Voice
+Unknown Policy      :Unknown
+VLAN tagged         :No
+Media policy VlanID      :0
+Media policy L2 priority :0
+Media policy Dscp        :0
+
+Power Type               :PD
+PoE PSE power source     :PSE
+Port PSE Priority        :High
+Port Available power value:4.0(w)
+
+GigabitEthernet2/0/13 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :Network address
+Chassis ID     :10.118.3.10
+Port ID type   :MAC address
+Port ID        :805e-0c52-b826
+Port description    :WAN PORT
+System name         :SIP-W60B
+System description  :77.83.14.1
+System capabilities supported   :bridge telephone
+System capabilities enabled     :bridge telephone
+Expired time   :167s
+
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(10)/duplex(Half)
+
+MED Device information
+Device class   :EndPoint Class III
+
+HardwareRev       :77.0.0.48.0.0.0
+FirmwareRev       :77.83.14.1
+SoftwareRev       :77.83.14.1
+SerialNum         :805e0c52b826
+Manufacturer name :IP_Phone
+Model name        :W600
+
+Media policy type   :Voice
+Unknown Policy      :Unknown
+VLAN tagged         :No
+Media policy VlanID      :0
+Media policy L2 priority :0
+Media policy Dscp        :0
+
+Power Type               :PD
+PoE PSE power source     :PSE
+Port PSE Priority        :High
+Port Available power value:4.0(w)
+
+GigabitEthernet2/0/25 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address
+Chassis ID     :8c04-ba9c-1cd1
+Port ID type   :MAC address
+Port ID        :8c04-ba9c-1cd1
+Expired time   :2861s
+
+
+Auto-negotiation supported    :Yes
+Auto-negotiation enabled      :Yes
+OperMau   :speed(Unknown)/duplex(Unknown)
+
+MED Device information
+Device class   :EndPoint Class I

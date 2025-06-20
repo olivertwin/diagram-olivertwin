@@ -1,0 +1,12 @@
+{{ sourceLabel | ORPHRASE }} has {{ ignore }} neighbor(s):
+Port ID type   :{{ id_type | PHRASE }}
+Port ID subtype                    :{{ id_type | PHRASE }}
+Port ID        :{{ destinationLabel }}
+Port description    :{{ port_desc | ORPHRASE }}
+System name         :{{ destinationNodeID | ORPHRASE }}
+System description  :{{ sysdesc | ORPHRASE }}
+System capabilities enabled        :{{ nodeType | ORPHRASE }}
+Management address type  :{{ mgmt_type }}
+Management address value :{{ mgmt_ip | IP }}
+Management address       :{{ mgmt_ip | IP }}
+
