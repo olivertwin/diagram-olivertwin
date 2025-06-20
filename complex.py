@@ -1,17 +1,17 @@
 from functools import lru_cache
 from urllib.parse import urlencode
 
-NETBOX_URL = "https://demo.netbox.dev"
+NETBOX_URL: str = "https://demo.netbox.dev"
 
 
-EXAMPLE_INPUT = {
+EXAMPLE_INPUT: dict[str,list[str]] = {
     "manufacturer": ["cisco"],
     "role": ["router", "core-switch", "access-switch"],
     "status": ["active", "offline"],
     "site": ["dm-akronsk", "dm-albany", "dm-camden"],
 }
 
-EXAMPLE_RESULT = [
+EXAMPLE_RESULT: list[tuple[str, int] | tuple[str, str]]= [
     ("manufacturer_id", 3),
     ("role_id", 1),
     ("role_id", 2),
@@ -67,7 +67,7 @@ def _get_manufacturer_id(manufacturer_slug: str) -> int:
     return manufacturer_id
 
 
-def craft_nb_query(request_params: dict[str, str]) -> list[tuple[str, str | int]]:
+def craft_nb_query(request_params: dict[str, list[str]]) -> list[tuple[str, str | int]]:
     """Преобразование набора параметров в request params.
 
     Args:
@@ -100,7 +100,7 @@ def craft_nb_query(request_params: dict[str, str]) -> list[tuple[str, str | int]
         ```
     """
     if len(request_params) == 0:
-        raise ValueError("отсутствуют параметры запроса")
+        raise ValueError("don't get req parameters")
 
     q = []
     for item_type, items in request_params.items():
@@ -121,7 +121,7 @@ def craft_nb_query(request_params: dict[str, str]) -> list[tuple[str, str | int]
                 new_name = "site_id"
                 new_id = _get_site_id(item)
             else:
-                raise ValueError("неизвестный тип параметра")
+                raise ValueError("undefined parameter")
             q.append((new_name, new_id))
     q.append(("brief", "true"))
     q.append(("limit", 500))
@@ -130,5 +130,5 @@ def craft_nb_query(request_params: dict[str, str]) -> list[tuple[str, str | int]
 
 if __name__ == "__main__":
     result = craft_nb_query(EXAMPLE_INPUT)
-    assert result == EXAMPLE_RESULT, "функция 'craft_nb_query' работает некорректно"
+    assert result == EXAMPLE_RESULT, "func 'craft_nb_query' doesn't work"
     print(NETBOX_URL + "/api/dcim/devices/?" + urlencode(result))
