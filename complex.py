@@ -51,7 +51,7 @@ def _get_device_role_id(device_role_slug: str) -> int:
         "access-switch": 4,
     }.get(device_role_slug)
     if device_role_id is None:
-        raise ValueError(f"неизвестная роль устройства '{device_role_slug}'")
+        raise ValueError(f"undefined devices role '{device_role_slug}'")
     return device_role_id
 
 
