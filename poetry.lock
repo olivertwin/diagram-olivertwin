@@ -186,6 +186,21 @@ files = [
 ]
 
 [[package]]
+name = "n2g"
+version = "0.3.3"
+description = "Need To Graph"
+optional = false
+python-versions = ">=3.7,<4.0"
+groups = ["main"]
+files = [
+    {file = "N2G-0.3.3-py3-none-any.whl", hash = "sha256:20e942c4d0de4412d03fd75e87189304e7c15fc87ab172fb01209eb19b782554"},
+    {file = "N2G-0.3.3.tar.gz", hash = "sha256:e19d955291c6baf5bd917c0def1ea1f1b2b9aab00131134fd0cb86d0e227f573"},
+]
+
+[package.extras]
+full = ["flask (==2.2.2) ; python_version >= \"3.7\"", "openpyxl (>=3.1.0,<3.2.0) ; python_version >= \"3.7\"", "python-igraph (>=0.10.0,<0.11.0) ; python_version >= \"3.6\"", "ttp (>=0.9.0,<0.10.0) ; python_version >= \"3.6\"", "ttp_templates (>=0.3.0,<0.4.0) ; python_version >= \"3.6\""]
+
+[[package]]
 name = "packaging"
 version = "25.0"
 description = "Core utilities for Python packages"
@@ -279,6 +294,22 @@ files = [
 ]
 
 [[package]]
+name = "ttp"
+version = "0.9.5"
+description = "Template Text Parser"
+optional = false
+python-versions = ">=2.7,<4.0"
+groups = ["main"]
+files = [
+    {file = "ttp-0.9.5-py2.py3-none-any.whl", hash = "sha256:2c9fcf560b3f696e9fdd3554dc8e4622cbb10cac1d4fca13a7cf608c4a7fd137"},
+    {file = "ttp-0.9.5.tar.gz", hash = "sha256:234414f4d3039d2d1cde09993f89f8db1b34d447f76c6a402555cefac2e59c4e"},
+]
+
+[package.extras]
+docs = ["Sphinx (==4.3.0) ; python_version >= \"3.7\"", "readthedocs-sphinx-search (==0.1.1) ; python_version >= \"3.7\"", "sphinx_rtd_theme (==1.0.0) ; python_version >= \"3.7\"", "sphinxcontrib-applehelp (==1.0.1) ; python_version >= \"3.7\"", "sphinxcontrib-devhelp (==1.0.1) ; python_version >= \"3.7\"", "sphinxcontrib-htmlhelp (==2.0.0) ; python_version >= \"3.7\"", "sphinxcontrib-jsmath (==1.0.1) ; python_version >= \"3.7\"", "sphinxcontrib-napoleon (==0.7) ; python_version >= \"3.7\"", "sphinxcontrib-qthelp (==1.0.2) ; python_version >= \"3.7\"", "sphinxcontrib-serializinghtml (==1.1.5) ; python_version >= \"3.7\"", "sphinxcontrib-spelling (==7.2.1) ; python_version >= \"3.7\""]
+full = ["cerberus (>=1.3.0,<1.4.0) ; python_version >= \"3.7\"", "deepdiff (>=5.8.0,<5.9.0) ; python_version >= \"3.7\"", "jinja2 (>=3.0.0,<3.1.0) ; python_version >= \"3.7\"", "n2g (>=0.2.0,<0.3.0) ; python_version >= \"3.7\"", "openpyxl (>=3.0.0,<3.1.0) ; python_version >= \"3.7\"", "pyyaml (==6.0) ; python_version >= \"3.7\"", "tabulate (>=0.8.0,<0.9.0) ; python_version >= \"3.7\"", "ttp_templates (<1.0.0) ; python_version >= \"3.7\"", "yangson (>=1.4.0,<1.5.0) ; python_version >= \"3.7\""]
+
+[[package]]
 name = "typing-extensions"
 version = "4.14.0"
 description = "Backported and Experimental Type Hints for Python 3.9+"
@@ -292,5 +323,5 @@ files = [
 
 [metadata]
 lock-version = "2.1"
-python-versions = ">=3.11"
-content-hash = "622e51d239edaf6c9d3f9e862b8c276e3d8641b6d58c9b4321b1e7344d4c8865"
+python-versions = ">=3.11,<4.0"
+content-hash = "a735fd110ccc17256e59c8682cd99c59e780aea28e063ae53572509f5a948a1a"

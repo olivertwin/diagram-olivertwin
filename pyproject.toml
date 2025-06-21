@@ -6,8 +6,10 @@ authors = [
     {name = "bukharaev_r",email = "bukharaev_r@ga.loc"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<4.0"
 dependencies = [
+    "n2g (>=0.3.3,<0.4.0)",
+    "ttp (>=0.9.5,<0.10.0)"
 ]
 
 [tool.poetry]

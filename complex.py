@@ -67,7 +67,7 @@ def _get_manufacturer_id(manufacturer_slug: str) -> int:
     return manufacturer_id
 
 
-def craft_nb_query(request_params: dict[str, list[str]]) -> list[tuple[str, str | int]]:
+def craft_nb_query(request_params: dict[str, list[str]]) -> list[tuple[str, str] | tuple[str, int]]:
     """Преобразование набора параметров в request params.
 
     Args:
@@ -102,7 +102,7 @@ def craft_nb_query(request_params: dict[str, list[str]]) -> list[tuple[str, str 
     if len(request_params) == 0:
         raise ValueError("don't get req parameters")
 
-    q = []
+    q: list[tuple[str, str] | tuple[str, int]] = []
     for item_type, items in request_params.items():
         for item in items:
             if item_type == "name":
@@ -113,13 +113,13 @@ def craft_nb_query(request_params: dict[str, list[str]]) -> list[tuple[str, str 
                 new_id = item
             elif item_type == "role":
                 new_name = "role_id"
-                new_id = _get_device_role_id(item)
+                new_id = _get_device_role_id(item)  # type: ignore
             elif item_type == "manufacturer":
                 new_name = "manufacturer_id"
-                new_id = _get_manufacturer_id(item)
+                new_id = _get_manufacturer_id(item)  # type: ignore
             elif item_type == "site":
                 new_name = "site_id"
-                new_id = _get_site_id(item)
+                new_id = _get_site_id(item)  # type: ignore
             else:
                 raise ValueError("undefined parameter")
             q.append((new_name, new_id))

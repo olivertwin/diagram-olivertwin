@@ -1,7 +1,8 @@
-from N2G import drawio_diagram
+from typing import Any
+from N2G import drawio_diagram  # type: ignore
 import logging
 import re
-from ttp import ttp
+from ttp import ttp  # type: ignore
 
 
 # logger
@@ -13,7 +14,7 @@ file_handler.setFormatter(log_format)
 logger.addHandler(file_handler)
 
 
-def lldp_file_reader(lldp_file: str, parse_template: str) -> tuple[list[str], list[str]]:
+def lldp_file_reader(lldp_file: str, parse_template: str) -> tuple[list[dict[str, str]], list[dict[str, Any]]]:
     """Parsing raw output from a file using a template. In the output we get lists of hosts and lists of connects
 
     Args:
@@ -25,9 +26,9 @@ def lldp_file_reader(lldp_file: str, parse_template: str) -> tuple[list[str], li
     Returns:
        tuple[list[str], list[str]] - remove the duplicates and get back two lists
     """
-    device_list = []
-    connections_list = []
-    duplicate_device_list = []
+    device_list: list = []
+    connections_list: list = []
+    duplicate_device_list: list = []
 
     parser = ttp(data=lldp_file, template=parse_template)
     parser.parse()
@@ -37,7 +38,7 @@ def lldp_file_reader(lldp_file: str, parse_template: str) -> tuple[list[str], li
     main_device = {"id": identity, "label": "asw-01", "style": "./l3_switch"}
     device_list.append(main_device)
     for connect in result:
-        if "Interface " in connect.get("id_type") and node_type != "":
+        if "Interface " in connect.get("id_type"):
             identity = set_id(connect.get("destinationNodeID"))
             attribute = set_attr(connect.get("destinationLabel"), identity)
             connection = {
