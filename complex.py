@@ -37,13 +37,13 @@ def _get_site_id(site_slug: str) -> int:
         "dm-camden": 6,
     }.get(site_slug)
     if site_id is None:
-        raise ValueError(f"неизвестный сайт '{site_slug}'")
+        raise ValueError(f"undefined site '{site_slug}'")
     return site_id
 
 
 @lru_cache
 def _get_device_role_id(device_role_slug: str) -> int:
-    """Заглушка для получения id роли устройства по её slug."""
+    """Stub for get id role with slug."""
     device_role_id = {
         "router": 1,
         "core-switch": 2,
