@@ -1,9 +1,9 @@
 [project]
-name = "diagram-from-lldp"
+name = "diagram-olivertwin"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "bukharaev_r",email = "bukharaev_r@ga.loc"}
+    {name = "olivertwin",email = "olivertwin@yandex.ru"}
 ]
 readme = "README.md"
 requires-python = ">=3.11,<4.0"
