@@ -14,5 +14,7 @@ mypy:
 	poetry run mypy complex.py
 	poetry run mypy src
 
+build: init
+
 check: lint mypy
 	@echo "✅ Проверки пройдены"
