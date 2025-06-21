@@ -1,9 +1,13 @@
-.PHONY: lint mypy check
+.PHONY: lint mypy check init-dev init
 
-init-dev:
-	pipx install poetry
+init:
+	pip install poetry
+	poetry install --without dev
+init-dev: init
+	poetry install --with dev
+
 lint:
-	poetry run black .
+	poetry run black --check .
 	poetry run ruff check complex.py
 
 mypy:
