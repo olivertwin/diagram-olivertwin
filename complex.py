@@ -28,7 +28,7 @@ EXAMPLE_RESULT: list[tuple[str, int] | tuple[str, str]] = [
 
 @lru_cache
 def _get_site_id(site_slug: str) -> int:
-    """Заглушка для получения id сайта по его slug."""
+    """Stub for get site's id"""
     site_id = {
         "dm-akronsk": 2,
         "dm-albany": 3,
