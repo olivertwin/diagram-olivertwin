@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "diagram_from_lldp", from = "src"}]
+packages = [{include = "diagram-olivertwin", from = "src"}]
 
 
 [tool.poetry.group.dev.dependencies]

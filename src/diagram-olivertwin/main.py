@@ -140,7 +140,7 @@ def diagram_from_file(
         "node": devices,
         "links": connections,
     }
-    logger.info("Process diagram_from_lldp...")
+    logger.info("Process diagram-olivertwin...")
     new_device = "asw-01"
     diagram = drawio_diagram()
     diagram.from_dict(
@@ -150,7 +150,7 @@ def diagram_from_file(
         diagram_name=f"{new_device}",
     )
     diagram.layout(algo="circle")
-    logger.info("Drop diagram_from_lldp...")
+    logger.info("Drop diagram-olivertwin...")
     diagram.dump_file(filename=f"{new_device}.drawio", folder="./")
     logger.info("The task completes")
 
